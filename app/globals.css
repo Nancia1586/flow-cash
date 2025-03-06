@@ -43,6 +43,8 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-custom-green: var(--custom-green);
+  --color-custom-light-green: var(--custom-light-green);
 }
 
 :root {
@@ -50,7 +52,7 @@
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
+  --primary: oklch(26.92% 0.0424 262.7);
   --primary-foreground: oklch(0.984 0.003 247.858);
   --secondary: oklch(0.968 0.007 247.896);
   --secondary-foreground: oklch(0.208 0.042 265.755);
@@ -79,6 +81,8 @@
   --sidebar-ring: oklch(0.704 0.04 256.788);
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
+  --custom-green: #a3d9a5;
+  --custom-light-green: #eaf3ea;
 }
 
 .dark {
@@ -114,6 +118,8 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(0.279 0.041 260.031);
   --sidebar-ring: oklch(0.446 0.043 257.281);
+  --custom-green: #a3d9a5;
+  --custom-light-green: #eaf3ea;
 }
 
 @layer base {
