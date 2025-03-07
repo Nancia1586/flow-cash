@@ -25,7 +25,7 @@ export const LoginForm = () => {
         <Button>Se connecter</Button>
         <p className="text-sm text-balance text-muted-foreground text-center">
           Pas encore de compte ?{" "}
-          <a href="#" className="text-primary">
+          <a href="/register" className="text-primary">
             S&apos;inscrire
           </a>
         </p>
