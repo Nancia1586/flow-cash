@@ -4,7 +4,7 @@ import { Label } from "@/components/ui/label";
 
 export const LoginForm = () => {
   return (
-    <div className="grid gap-5 w-auto md:w-[260px] lg:w-[280px]">
+    <div className="grid gap-5 w-full lg:w-[280px]">
       <div className="grid gap-3">
         <Label htmlFor="email">Email</Label>
         <Input
