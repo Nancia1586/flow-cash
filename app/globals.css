@@ -45,6 +45,8 @@
   --radius-xl: calc(var(--radius) + 4px);
   --color-custom-green: var(--custom-green);
   --color-custom-light-green: var(--custom-light-green);
+  --color-custom-dark-blue: var(--custom-dark-blue);
+  --color-custom-blue-gray: var(--custom-blue-gray);
 }
 
 :root {
@@ -83,6 +85,8 @@
   --foreground: oklch(0.129 0.042 264.695);
   --custom-green: #a3d9a5;
   --custom-light-green: #eaf3ea;
+  --custom-dark-blue: #1b263b;
+  --custom-blue-gray: #3d5a80;
 }
 
 .dark {
