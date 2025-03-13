@@ -8,7 +8,7 @@ export default function RegisterPage() {
         <div className="p-10 lg:flex flex-col justify-center items-center w-full min-h-screen lg:min-h-0">
           <div className="flex justify-center mb-4">
             <Image
-              src="/flow-cash-logo.png"
+              src="/logo-color.svg"
               width={120}
               height={120}
               alt="flow-cash-logo"

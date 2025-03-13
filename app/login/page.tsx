@@ -7,7 +7,7 @@ export default function LoginPage() {
       <div className="bg-white shadow-xl mx-auto grid grid-cols-1 lg:grid-cols-2 rounded-sm w-full min-h-screen lg:w-auto lg:min-h-0">
         <div className="hidden lg:flex bg-custom-green justify-center items-center">
           <Image
-            src="/flow-cash-logo.png"
+            src="/logo-color.svg"
             width={250}
             height={250}
             alt="flow-cash-logo"
@@ -16,7 +16,7 @@ export default function LoginPage() {
         <div className="p-10 lg:flex flex-col justify-center items-center w-full min-h-screen lg:min-h-0">
           <div className="lg:hidden flex justify-center mb-4">
             <Image
-              src="/flow-cash-logo.png"
+              src="/logo-color.svg"
               width={120}
               height={120}
               alt="flow-cash-logo"
