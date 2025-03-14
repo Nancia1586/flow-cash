@@ -8,11 +8,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <main className="w-screen">
         <div className="flex items-center justify-between w-min-screen w-full h-18 border-b px-3">
           <SidebarTrigger />
-          <div className="flex items-center gap-2">
-            <div className="bg-custom-blue-gray text-white rounded-full px-3 py-2">
-              RA
+          <div className="flex items-center gap-1">
+            <div className="bg-custom-blue-gray text-white rounded-full px-3 py-1 text-lg">
+              R
             </div>
-            <span className="uppercase text-primary">Rakoto</span>
+            <span className="text-primary">Rakoto</span>
           </div>
         </div>
         {children}
