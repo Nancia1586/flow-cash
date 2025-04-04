@@ -10,13 +10,13 @@ import {
   FileCodeIcon,
   FileIcon,
   FileTextIcon,
-  FolderIcon,
   HelpCircleIcon,
   LayoutDashboardIcon,
   ListIcon,
   SearchIcon,
+  Settings,
   SettingsIcon,
-  UsersIcon,
+  Wallet,
 } from "lucide-react";
 
 import { NavDocuments } from "@/components/nav-documents";
@@ -41,29 +41,29 @@ const data = {
   },
   navMain: [
     {
-      title: "Dashboard",
-      url: "#",
+      title: "Tableau de bord",
+      url: "/home/dashboard",
       icon: LayoutDashboardIcon,
     },
     {
-      title: "Lifecycle",
-      url: "#",
+      title: "Mes transactions",
+      url: "/home/transactions",
       icon: ListIcon,
     },
     {
-      title: "Analytics",
+      title: "Mes revenus / dépenses",
       url: "#",
       icon: BarChartIcon,
     },
     {
-      title: "Projects",
+      title: "Mon épargne",
       url: "#",
-      icon: FolderIcon,
+      icon: Wallet,
     },
     {
-      title: "Team",
+      title: "Paramètres",
       url: "#",
-      icon: UsersIcon,
+      icon: Settings,
     },
   ],
   navClouds: [
