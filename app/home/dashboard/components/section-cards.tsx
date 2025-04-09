@@ -23,21 +23,21 @@ export function SectionCards() {
       title: "Total des revenus",
       amount: 4257300,
       percent: -20,
-      backgroundColor: "bg-[#22844e]",
+      backgroundColor: "bg-income-color",
     },
     {
       key: "expense",
       title: "Total des dépenses",
       amount: 2238900,
       percent: 12.5,
-      backgroundColor: "bg-[#d95c5e]",
+      backgroundColor: "bg-expense-color",
     },
     {
       key: "saving",
       title: "Epargne",
       amount: 2107600,
       percent: 4.5,
-      backgroundColor: "bg-[#daa520]",
+      backgroundColor: "bg-saving-color",
     },
   ];
 
