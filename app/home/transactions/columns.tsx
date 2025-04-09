@@ -5,6 +5,7 @@ import { ColumnDef } from "@tanstack/react-table";
 
 import { Badge } from "@/components/ui/badge";
 import { TransactionType } from "@/types/transaction";
+import { formatAmount } from "@/lib/utils";
 
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.
@@ -30,7 +31,9 @@ export const columns: ColumnDef<Transaction>[] = [
   {
     accessorKey: "date",
     header: () => <div className="pl-3">Date</div>,
-    cell: ({ row }) => <div className="pl-3 text-sm">{row.original.date}</div>,
+    cell: ({ row }) => (
+      <div className="pl-3 py-1 text-sm">{row.original.date}</div>
+    ),
     enableHiding: false,
   },
   {
@@ -70,13 +73,17 @@ export const columns: ColumnDef<Transaction>[] = [
   {
     accessorKey: "debit",
     header: "Debit",
-    cell: ({ row }) => <div className="text-sm">{row.original.debit}</div>,
+    cell: ({ row }) => (
+      <div className="text-sm">{formatAmount(row.original.debit)}</div>
+    ),
     enableHiding: false,
   },
   {
     accessorKey: "credit",
     header: "Credit",
-    cell: ({ row }) => <div className="text-sm">{row.original.credit}</div>,
+    cell: ({ row }) => (
+      <div className="text-sm">{formatAmount(row.original.credit)}</div>
+    ),
     enableHiding: false,
   },
 ];
