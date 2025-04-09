@@ -47,6 +47,9 @@
   --color-custom-light-green: var(--custom-light-green);
   --color-custom-dark-blue: var(--custom-dark-blue);
   --color-custom-blue-gray: var(--custom-blue-gray);
+  --color-income-color: var(--income-color);
+  --color-expense-color: var(--expense-color);
+  --color-saving-color: var(--saving-color);
 }
 
 :root {
@@ -87,6 +90,9 @@
   --custom-light-green: #eaf3ea;
   --custom-dark-blue: #1b263b;
   --custom-blue-gray: #3d5a80;
+  --income-color: #22844e;
+  --expense-color: #d95c5e;
+  --saving-color: #daa520;
 }
 
 .dark {
@@ -124,6 +130,9 @@
   --sidebar-ring: oklch(0.446 0.043 257.281);
   --custom-green: #a3d9a5;
   --custom-light-green: #eaf3ea;
+  --income-color: #22844e;
+  --expense-color: #d95c5e;
+  --saving-color: #daa520;
 }
 
 @layer base {
